@@ -2,7 +2,7 @@ name: Testing Github action for python server
 
 on:
   push:
-    branches: [main]
+    branches: [master]
 
 jobs:
   build-push-images:
