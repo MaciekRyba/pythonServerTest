@@ -6,7 +6,7 @@ import socket
 
 
 #Test pythos server
-#W celu wysłania zapytania do serwera należy w przeglądarce podać adres localhost:8000.
+#W celu wysłania zapytania do serwera należy w przeglądarce podać adres localhost:8000
 
 hostName = "localhost"
 
@@ -14,7 +14,7 @@ serverPort = 8000
 
 
 
-#Podczas wysyłania zapytania (localhost:8000) do serwera, metoda generuje stronę html wyświetlaną klientowi, która prezentuje jego adres ip oraz datę.
+#Podczas wysyłania zapytania (localhost:8000) do serwera, metoda generuje stronę html wyświetlaną klientowi, która prezentuje jego adres ip oraz datę
 
 class MyServer(BaseHTTPRequestHandler):
 
